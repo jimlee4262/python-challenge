@@ -25,7 +25,7 @@ with open(election_data) as csvreader:
         voter_ID.append(row[0])
         county.append(row[1])
         candidate.append(row[2])
-    
+
     #counts the # of votes for each candidacy
     for i in candidate:
         if i == "Khan":
